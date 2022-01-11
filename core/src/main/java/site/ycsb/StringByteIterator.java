@@ -66,7 +66,7 @@ public class StringByteIterator extends ByteIterator {
    * StringByteIterators to Strings.
    */
   public static Map<String, String> getStringMap(Map<String, ByteIterator> m) {
-    HashMap<String, String> ret = new HashMap<String, String>();
+    HashMap<String, String> ret = new HashMap<String, String>(m.size());
 
     for (Map.Entry<String, ByteIterator> entry : m.entrySet()) {
       ret.put(entry.getKey(), entry.getValue().toString());

@@ -114,6 +114,7 @@ LICENSE file.
     <accumulo.1.9.version>1.9.3</accumulo.1.9.version>
     <aerospike.version>3.1.2</aerospike.version>
     <arangodb.version>4.4.1</arangodb.version>
+    <arcadedb.version>2.12.2</arcadedb.version>
     <asynchbase.version>1.8.2</asynchbase.version>
     <azurecosmos.version>4.8.0</azurecosmos.version>
     <azurestorage.version>4.0.0</azurestorage.version>
@@ -161,14 +162,15 @@ LICENSE file.
     <module>accumulo1.9</module>
     <module>aerospike</module>
     <module>arangodb</module>
+    <module>arcadedb</module>
     <module>asynchbase</module>
     <module>azurecosmos</module>
     <module>azuretablestorage</module>
     <module>cassandra</module>
     <module>cloudspanner</module>
     <module>couchbase</module>
-		<module>couchbase2</module>
-		<module>crail</module>
+    <module>couchbase2</module>
+    <module>crail</module>
     <module>dynamodb</module>
     <module>elasticsearch</module>
     <module>elasticsearch5</module>
